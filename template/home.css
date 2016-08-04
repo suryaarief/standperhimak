@@ -16,14 +16,22 @@ a {
 }
 
 div#header {
-	width: 100%;
+	width: auto;
 	height: 90px;
 	background-color: #262f7c;
-	color: #fff;
+	color: #eee;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+div#header:hover {
+	background-color: #222;
+	color: #eee;
+	text-align: center;
 }
 
 .logo {
-	color: #000;
 	padding-left: 30px;
 	padding-bottom: 5px;
 	padding-top: 5px;
@@ -38,13 +46,9 @@ div#header {
 
 table#container {
 	width: 100%;
-	border-collapse: collapse;
-	padding: 15px;
-	background-color: #111;
 }
 
 .sidebar {
-	border-collapse: collapse;
 	background-color: #222;
 	vertical-align: top;
 	width:15%;
@@ -76,19 +80,17 @@ ul#list li a {
 ul#list li a:hover {
 	background-color: #030303;
 	color: #fff;
-	padding-left: 50px;
+	padding-left: 30px;
 }
 
 .content {
-	border-collapse: collapse;
-	width:90%;
-	padding: 15px;
-	text-align: center;
+	vertical-align: top;
+	padding: 10px;
 	background-color: #eee;
 }
 
 table#kampus,tr#kampus ,td#kampus {
-	width: 90%;
+	width: 95%;
 	border-collapse: collapse;
 	padding: 15px;
 }
@@ -97,7 +99,7 @@ table#kampus,tr#kampus ,td#kampus {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
-	max-width: 60%;
+	max-width: 50%;
 	height: 240px;
 }
 
@@ -106,7 +108,7 @@ table#kampus,tr#kampus ,td#kampus {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
-	max-width: 60%;
+	max-width: 50%;
 	height: 240px;
 }
 .imageupi {
