@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic);
+/*Import File*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 0px;
+	font-family: 'Open Sans';
+}
+
+a {
+	text-decoration: none;
+}
+
+div#header {
+	width: 100%;
+	height: 90px;
+	background-color: #262f7c;
+	color: #fff;
+}
+
+.logo {
+	color: #000;
+	padding-left: 30px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 1.8em;
+	font-family: 'Open Sans';
+	font-weight: 600;
+}
+.logo a {
+	text-decoration: none;
+	color: #fff;
+}
+
+table#container {
+	width: 100%;
+	border-collapse: collapse;
+	padding: 15px;
+	background-color: #111;
+}
+
+.sidebar {
+	border-collapse: collapse;
+	background-color: #222;
+	vertical-align: top;
+	width:15%;
+	padding: 10px;
+	padding-left: 10px;
+}
+
+ul#list {
+
+}
+
+ul#list li {
+	list-style: none;
+}
+
+ul#list li a {
+	color: #ccc;
+	font-weight: 500;
+	display: block;
+	padding: 10px;
+	font-size: 1em;
+	border-bottom: 2px solid #0A0A0A;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+ul#list li a:hover {
+	background-color: #030303;
+	color: #fff;
+	padding-left: 50px;
+}
+
+.content {
+	border-collapse: collapse;
+	width:90%;
+	padding: 15px;
+	text-align: center;
+	background-color: #eee;
+}
+
+table#kampus,tr#kampus ,td#kampus {
+	width: 90%;
+	border-collapse: collapse;
+	padding: 15px;
+}
+.imageitb {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	max-width: auto;
+	height: 80px;
+}
+
+.imageunpad {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	max-width: 60%;
+	height: 240px;
+}
+.imageupi {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	padding: 10px;
+	width: 25%;
+	height: 240px;
+}
+.pic {
+	width:12%;
+}
+.desc {
+	width: 100%;
+	vertical-align: top;
+}
