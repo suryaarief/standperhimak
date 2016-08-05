@@ -128,6 +128,7 @@ table#kampus,tr#kampus ,td#kampus {
 }
 .title {
 	width: 100%;
+	padding-left: 15px;
 	background-color: #262f7c;
 	color: #fff;
 	font-size: 1.5em;
