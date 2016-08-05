@@ -16,10 +16,12 @@ a {
 }
 
 div#header {
+	display: block;
 	width: auto;
 	height: 90px;
 	color: #eee;
 	background-color: #262f7c;
+	border-bottom: 2px solid #0a0a0a;
 	-webkit-transition: 0.5s;
 	-moz-transition: 0.5s;
 	-o-transition: 0.5s;
