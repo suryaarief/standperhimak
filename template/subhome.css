@@ -151,16 +151,16 @@ table#kampus,tr#kampus ,td#kampus {
 table#data {
 	border-collapse: collapse;
 	padding: 10px;
-	width:80%;
+	width:90%;
 }
 tr th {
 	padding: 10px;
-	background-color:#66ffff;
-	border:2px solid #222;
+	background-color:#ddffff;
+	border:1.5px solid #ccc;
 }
 table#data td {
 	padding: 15px;
-	border:2px solid #222;
+	border:1.5px solid #ccc;
 }
 
 ul#jurusan li {
